@@ -22,7 +22,7 @@ Designed for practical use, it takes raw email text input and classifies it as *
 
 ```bash
 ├── PREPROCESSING.py       # Cleans Enron data and splits train/test sets
-├── TRAINING.py            # Fine-tunes DistilBERT on cleaned email data
-├── PREDICTION.py          # Loads trained model and classifies input emails
+├── TRAINING.py            # Fine-tunes DistilBERT on cleaned e-mail data
+├── PREDICTION.py          # Loads trained model and classifies input e-mails
 ├── email_model/             # Contains final fine-tuned model
 └── email_data/              # CSVs for training and testing
